@@ -1,0 +1,111 @@
+.heading{
+    color: var(--Tertiary-Color, #161E54);
+
+font-feature-settings: 'salt' on, 'liga' off;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 12px; /* 175% */
+padding: 15px;
+}
+
+.main-content-dashboard{
+display: flex;
+}
+
+.left-side-content{
+    flex: 2; /* Takes 2/3 of the width */
+    /* background-color: #9c3c3c; */
+    padding: 20px;
+
+}
+
+.right-side-content{
+    flex: 1; /* Takes 1/3 of the width */
+    padding: 20px;
+}
+
+.card-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 10px; 
+}
+
+.card-1{
+    display: flex;
+padding: 12px 12px 12px 20px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFEFE7;
+}
+.card-2{
+    display: flex;
+padding: 12px 12px 12px 20px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #E8F0FB;;
+}
+.card-3{
+    display: flex;
+padding: 12px 12px 12px 20px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FDEBF9;
+}
+.numeric-data{
+    color: var(--Tertiary-Color, #161E54);
+
+font-feature-settings: 'salt' on, 'liga' off;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 77.778% */
+}
+
+.graph-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px; 
+        margin-top: 20px;
+}
+
+.graph-text{
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /
+}
+
+.graph-data{
+    font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    .card-main{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .graph-container{
+        display: grid;
+        grid-template-columns: 1fr;
+            grid-gap: 10px; 
+            margin-top: 20px;
+    }
+
+  }
