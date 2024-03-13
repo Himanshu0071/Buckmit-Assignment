@@ -34,17 +34,17 @@ const Dashboard = () => {
             <div className="card-1">
               <p>Available Position</p>
               <p className="numeric-data">24</p>
-              <p>4 urgentyl needed</p>
+              <p style={{fontFamily:"Roboto",color:"#FF5151"}}>4 urgentyl needed</p>
             </div>
             <div className="card-2">
               <p>Job Open</p>
               <p className="numeric-data">24</p>
-              <p>4 urgentyl needed</p>
+              <p  style={{fontFamily:"Roboto",color:"#3786F1"}}>4 Actively Hiring</p>
             </div>
             <div className="card-3">
               <p>New Employees</p>
               <p className="numeric-data">24</p>
-              <p>4 urgentyl needed</p>
+              <p style={{fontFamily:"Roboto",color:"#EE61CF"}}>4 Department</p>
             </div>
           </div>
 
@@ -94,12 +94,12 @@ const Dashboard = () => {
                     alignItems: "start",
                   }}
                 >
-                  <p>120 Men</p>
-                  <p>96 Women</p>
+                  <p style={{fontFamily:"Roboto"}}>120 Men</p>
+                  <p style={{fontFamily:"Roboto"}}>96 Women</p>
                 </div>
 
                 <p
-                  style={{
+                  style={{fontFamily:"Roboto",
                     borderRadius: "4px",
                     background: "#FFEFE7",
                     padding: "5px",
@@ -155,12 +155,12 @@ const Dashboard = () => {
                     alignItems: "start",
                   }}
                 >
-                  <p>6 Men</p>
-                  <p>10 Women</p>
+                  <p style={{fontFamily:"Roboto"}}>6 Men</p>
+                  <p style={{fontFamily:"Roboto"}}>10 Women</p>
                 </div>
 
                 <p
-                  style={{
+                  style={{fontFamily:"Roboto",
                     borderRadius: "4px",
                     background: "#FFEFE7",
                     padding: "5px",
@@ -217,7 +217,7 @@ const Dashboard = () => {
                   >
                     <div>
                       <p style={{ marginBottom: "5px" }}>{item.title}</p>
-                      <p>{item.time}</p>
+                      <p style={{ fontFamily:"Roboto"}}>{item.time}</p>
                     </div>
                     <div
                       style={{
@@ -361,7 +361,7 @@ const Dashboard = () => {
                   >
                     <div>
                       <p style={{ marginBottom: "5px" }}>Review candidate applications</p>
-                      <p style={{fontSize:"14px"}}>Today - 11.30 AM</p>
+                      <p style={{fontSize:"14px",fontFamily:"Roboto"}}>Today - 11.30 AM</p>
                     </div>
                     <div
                       style={{
@@ -397,7 +397,7 @@ const Dashboard = () => {
                   >
                     <div>
                       <p style={{ marginBottom: "5px" }}>Review candidate applications</p>
-                      <p style={{fontSize:"14px"}}>Today - 11.30 AM</p>
+                      <p style={{fontSize:"14px", fontFamily:"Roboto"}}>Today - 11.30 AM</p>
                     </div>
                     <div
                       style={{
@@ -427,7 +427,7 @@ const Dashboard = () => {
                   >
                     <div>
                       <p style={{ marginBottom: "5px" }}>Interview with candidate</p>
-                      <p style={{fontSize:"14px"}}>Today - 11.30 AM</p>
+                      <p style={{fontSize:"14px", fontFamily:"Roboto"}}>Today - 11.30 AM</p>
                     </div>
                     <div
                       style={{
@@ -457,7 +457,7 @@ const Dashboard = () => {
                   >
                     <div>
                       <p style={{ marginBottom: "5px" }}>Short meeting with product designer from IT Departement</p>
-                      <p style={{fontSize:"14px"}}>Today - 11.30 AM</p>
+                      <p style={{fontSize:"14px", fontFamily:"Roboto"}}>Today - 11.30 AM</p>
                     </div>
                     <div
                       style={{
